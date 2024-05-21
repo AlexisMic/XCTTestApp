@@ -1,0 +1,12 @@
+// Created for XCTTestApp in 2024
+// Using Swift 5.0
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+//BUILD_TYPE = PRD
+APP_NAME = XCTTestApp
+APP_BUNDLE_ID = AlexisSchotte.XCTTestApp
+
+//APIS URL
+AUTH_URL = api.mysns.pt/telemonit/v3/auth/rnu
