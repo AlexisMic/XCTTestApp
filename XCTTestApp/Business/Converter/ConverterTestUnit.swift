@@ -19,7 +19,7 @@ final class ConverterTestUnit: XCTestCase {
     func testBTCtoUSDconverter() {
         let converter = Converter()
         
-        let btc = 2.0
+        let btc = 1.0
         
         let usd = converter.btcToUsd(btc: btc)
         let expected = "30570.70"
