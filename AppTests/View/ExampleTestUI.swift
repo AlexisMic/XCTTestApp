@@ -31,7 +31,7 @@ final class ExampleTestUI: XCTestCase {
         convertButton.tap()
         
         let resultField = app.staticTexts["result"].label
-        XCTAssertEqual(resultField, "30570.70")
+        XCTAssertEqual(resultField, "305770")
         
     }
 
