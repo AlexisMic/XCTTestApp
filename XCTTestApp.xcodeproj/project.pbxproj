@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D71EEFF92BFF3F1500505183 /* ConverterTestUnit.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7EF61122BEB6F26004D7938 /* ConverterTestUnit.swift */; };
+		D71EEFFA2BFF505F00505183 /* Converter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7EF60FE2BEA9515004D7938 /* Converter.swift */; };
 		D785B86A2BF77C1D005A2999 /* ViewForTestUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C912E02BF6624D00DF24E4 /* ViewForTestUIView.swift */; };
 		D7C912DB2BF65BCF00DF24E4 /* XCTTestApp-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D75DF2D72BF6525A008A6EF2 /* XCTTestApp-Info.plist */; };
 		D7C912E12BF6624D00DF24E4 /* ViewForTestUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C912E02BF6624D00DF24E4 /* ViewForTestUIView.swift */; };
@@ -15,7 +17,6 @@
 		D7EF60E82BEA9484004D7938 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7EF60E72BEA9484004D7938 /* Assets.xcassets */; };
 		D7EF60EB2BEA9484004D7938 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7EF60EA2BEA9484004D7938 /* Preview Assets.xcassets */; };
 		D7EF60FF2BEA9515004D7938 /* Converter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7EF60FE2BEA9515004D7938 /* Converter.swift */; };
-		D7EF612A2BEBA974004D7938 /* ConverterTestUnit.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7EF61122BEB6F26004D7938 /* ConverterTestUnit.swift */; };
 		D7EF612E2BEBAA57004D7938 /* ExampleTestUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7EF61232BEB6FEB004D7938 /* ExampleTestUI.swift */; };
 		D7EF61342BED2EA8004D7938 /* PaddingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7EF61332BED2EA8004D7938 /* PaddingView.swift */; };
 /* End PBXBuildFile section */
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D71EEFFB2BFF5A4D00505183 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		D75DF2D02BF64AC2008A6EF2 /* Development.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Development.xcconfig; sourceTree = "<group>"; };
 		D75DF2D12BF64ADD008A6EF2 /* Quality.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Quality.xcconfig; sourceTree = "<group>"; };
 		D75DF2D22BF64AF2008A6EF2 /* Production.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Production.xcconfig; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 		D7EF60E22BEA9482004D7938 /* XCTTestApp */ = {
 			isa = PBXGroup;
 			children = (
+				D71EEFFB2BFF5A4D00505183 /* Info.plist */,
 				D7EF60E32BEA9482004D7938 /* XCTTestAppApp.swift */,
 				D7EF61272BEBA783004D7938 /* Business */,
 				D7EF61262BEBA77B004D7938 /* View */,
@@ -326,7 +329,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D7EF612A2BEBA974004D7938 /* ConverterTestUnit.swift in Sources */,
+				D71EEFFA2BFF505F00505183 /* Converter.swift in Sources */,
+				D71EEFF92BFF3F1500505183 /* ConverterTestUnit.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,6 +435,7 @@
 				DEVELOPMENT_TEAM = M7QC4X74R8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = XCTTestApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -570,6 +575,7 @@
 				DEVELOPMENT_TEAM = M7QC4X74R8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = XCTTestApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -716,6 +722,7 @@
 				DEVELOPMENT_TEAM = M7QC4X74R8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = XCTTestApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -855,6 +862,7 @@
 				DEVELOPMENT_TEAM = M7QC4X74R8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = XCTTestApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -1058,6 +1066,7 @@
 				DEVELOPMENT_TEAM = M7QC4X74R8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = XCTTestApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -1093,6 +1102,7 @@
 				DEVELOPMENT_TEAM = M7QC4X74R8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = XCTTestApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
